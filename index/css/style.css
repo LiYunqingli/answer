@@ -1,0 +1,218 @@
+/*开发者声明
+
+---------------
+
+开发者：李华荣（YQL）
+时间：24/04/12 最后一次合并代码到主分支
+联系方式：168278282@qq.com
+主页：https://lihuarong.cn:8080/
+
+$-请勿删除本声明-$
+
+---------------
+
+请尊重开发者的劳动成果，未经允许，请勿抄袭代码。*/
+
+/* 如果用到本项目的任何代码，请标明出处以及开发者。*/
+
+.main {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 40vh;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.left .tit {
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.left .fenlei .tit2 {
+    font-size: 2vh;
+    padding-top: 4vh;
+    padding-left: 2vh;
+}
+
+hr {
+    width: 90%;
+}
+
+.option {
+    width: 5vh;
+    height: 4vh;
+    border-radius: 1vh;
+    background-color: rgb(199, 226, 250);
+    margin-left: 1vh;
+    margin-top: 1vh;
+    line-height: 4vh;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.option:hover {
+    background-color: #2ed12e;
+    color: #fd004c;
+    font-weight: bold;
+    /* transform: scale(2); */
+}
+
+.option_div {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.right {
+    width: calc(100vw - 40vh);
+    background-color: rgb(240, 245, 248);
+    height: 100vh;
+    overflow: auto;
+}
+
+.kaishi {
+    /* 屏幕居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vh;
+    height: 5vh;
+    border-radius: 1vh;
+    background-color: rgb(199, 226, 250);
+    line-height: 5vh;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.kaishi:hover {
+    background-color: rgb(128, 179, 255);
+    color: #fff;
+    font-weight: bold;
+}
+
+.option_all {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    padding: 5vh;
+    margin-top: 10vh;
+}
+
+.option_detail {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-radius: 1.5vh;
+    padding: 2vh;
+    border: 0.1px solid rgb(199, 226, 250);
+    padding-left: 5vh;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.option_detail:hover {
+    background-color: rgb(221, 242, 255);
+    transform: scale(1.02);
+    box-shadow: 0 0 5px rgb(199, 226, 250);
+}
+
+.option_detail:active {
+    background-color: rgb(199, 226, 250);
+    transform: scale(1.01);
+    box-shadow: 0 0 5px rgb(199, 226, 250);
+}
+
+.timu {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    font-size: 2vh;
+}
+
+#option {
+    margin-top: 5vh;
+    transition: all 1s;
+}
+
+.checked{
+    background-color: #2ed12e;
+}
+
+.checked_option{
+    background-color: rgb(88, 188, 249);
+}
+
+.checked_option:hover{
+    background-color: rgb(88, 188, 249);
+}
+
+.btn_div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vh;
+}
+
+.btn_div div{
+    width: 10vh;
+    background-color: rgb(199, 226, 250);
+    text-align: center;
+    padding: 1vh;
+    margin-top: 5vh;
+    border-radius: 1vh;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.btn_div div:hover{
+    background-color: rgb(128, 179, 255);
+    transform: scale(1.02);
+    color: #fff;
+    font-weight: bold;
+}
+
+.pd{
+    margin-left: 50%;
+}
+
+.tijiao{
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 1vh;
+    background-color: rgb(199, 226, 250);
+    text-align: center;
+    user-select: none;
+    line-height: 5vh;
+    cursor: pointer;
+}
+
+.tijiao:hover{
+    background-color: rgb(128, 179, 255);
+    color: #fff;
+}
+
+.tip{
+    font-size: 1.5vh;
+    margin-top: 1.5vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    color: rgba(0, 0, 0, 0.322);
+}

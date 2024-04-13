@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--开发者声明
+
+---------------
+
+开发者：李华荣（YQL）
+时间：24/04/12 最后一次合并代码到主分支
+联系方式：168278282@qq.com
+主页：https://lihuarong.cn:8080/
+
+$-请勿删除本声明-$
+
+---------------
+
+请尊重开发者的劳动成果，未经允许，请勿抄袭代码。 -->
+
+<!-- 如果用到本项目的任何代码，请标明出处以及开发者。 -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<script src="./js/script.js"></script>
+
+<style>
+</style>
+
+<body>
+  <div onclick="enterFullScreen()" class="kaishi">开始练习</div>
+  <div class="main">
+    <div class="left">
+      <div class="tit">答题卡</div>
+      <div class="tip">
+        <!-- 说明：这套题目是1+x考证理论题1。单选、多选、判断题每小题两分。 -->
+      </div>
+      <div class="fenlei">
+        <div class="tit2">单选题</div>
+        <hr />
+        <div class="option_div" id="_1">
+          无题库
+          <!-- <div class="option">1</div> -->
+        </div>
+      </div>
+      <div class="fenlei">
+        <div class="tit2">多选题</div>
+        <hr />
+        <div class="option_div" id="_2">
+          无题库
+          <!-- <div class="option">1</div> -->
+        </div>
+      </div>
+      <div class="fenlei">
+        <div class="tit2">判断题</div>
+        <hr />
+        <div class="option_div" id="_3">
+          无题库
+          <!-- <div class="option">1</div>-->
+        </div>
+      </div>
+      <div class="tijiao" onclick="alert('开发者也是人，没有那么多精力来时刻维护这个项目，后期会逐步完善，敬请谅解。')">
+        提交
+      </div>
+    </div>
+    <div class="right">
+      <div class="option_all">
+        <div class="timu">
+          <!-- 1、哪个标记用于表示HTML文档的结束？( ) -->
+        </div>
+        <div id="option">
+          <!-- <div class="option_detail">A、true</div> -->
+        </div>
+        <div class="btn_div">
+          <div class="up" onclick="update_up()">上一题(A)</div>
+          <div class="pd" onclick="show_answer()">查看答案(S)</div>
+          <div class="duwn" onclick="update_down()">下一题(D)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

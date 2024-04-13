@@ -1,0 +1,503 @@
+{
+    "name": "理论1",
+    "msg": "说明：这套题目是1+x考证理论题1。单选、多选、判断题每小题两分。",
+    "data1": {
+        "1": {
+            "title": "哪个标记用于表示HTML文档的结束？( )",
+            "options": [
+                "</BODY>",
+                "</HTML>",
+                "</TABLE>",
+                "</TITLE>"
+            ],
+            "answer": "2"
+        },
+        "2": {
+            "title": "下面代码输出什么？( )<br><br>var arr = new Array(5);<br>arr[1] = 1;<br>console.log(arr.length);",
+            "options": [
+                "2",
+                "5",
+                "6",
+                "报错"
+            ],
+            "answer": "3"
+        },
+        "3": {
+            "title": "在JavaScript中alert( \"12\">\"9\" ) 的运行结果正确的是（ ）。",
+            "options": [
+                "true",
+                "false",
+                "12",
+                "9"
+            ],
+            "answer": "2"
+        },
+        "4": {
+            "title": "在标签中通过以下哪个属性可以用于指定元素的行内样式？（ ）",
+            "options": [
+                "class",
+                "id",
+                "style",
+                "title"
+            ],
+            "answer": "3"
+        },
+        "5": {
+            "title": "<_a href=\"**.jpg\" title=\"大连\">新闻</ a >，获取a元素title的属性值的方法是（ ）",
+            "options": [
+                "$(\"a\").attr(\"title\").val() ",
+                "$(\"#a\").attr(\"title\") ",
+                "$(\"a\").attr(\"title\") ",
+                "$(\"a\").attr(\"title\").value"
+            ],
+            "answer": "3"
+        },
+        "6": {
+            "title": "在CSS中，设置背景图像的代码正确的是（ ）。",
+            "options": [
+                "background-image: src(img/41.jpg)",
+                "background-image: url(img/41.jpg)",
+                "background-img: url(img/41.jpg) ",
+                "background-img: src(img/41.jpg) 2"
+            ],
+            "answer": "2"
+        },
+        "7": {
+            "title": "( )事件处理程序可用于在用户单击按钮时执行函数。",
+            "options": [
+                "onSubmit",
+                "onClick",
+                "onChange",
+                "onExit"
+            ],
+            "answer": "2"
+        },
+        "8": {
+            "title": "以下不是jQuery 选择器的是（ ）。",
+            "options": [
+                "类选择器",
+                "元素选择器",
+                "后代选择器",
+                "自定义选择器"
+            ],
+            "answer": "4"
+        },
+        "9": {
+            "title": "HTML是什么语言？（ ）",
+            "options": [
+                "高级文本语言",
+                "超文本标记语言",
+                "扩展标记语言",
+                "图形化标记语言"
+            ],
+            "answer": "2"
+        },
+        "10": {
+            "title": "下列哪一项表示的不是按钮？（ ）",
+            "options": [
+                "type=\"submit\"",
+                "type=\"reset\"",
+                "type=\"select\"",
+                "type=\"button\""
+            ],
+            "answer": "3"
+        },
+        "11": {
+            "title": "在JavaScript中，运行下面代码的结果是（ ）。<br><br>var arr = [6,3,4,5,1];<br>var sum = 0;<br>for(var i = 1; i< arr.length; i++){<br>    sum += arr[i]<br>}<br>console.log(sum);",
+            "options": [
+                "18",
+                "13",
+                "19",
+                "12"
+            ],
+            "answer": "2"
+        },
+        "12": {
+            "title": "下列哪个不是JavaScript的事件类型？（ ）",
+            "options": [
+                "动作事件",
+                "鼠标事件",
+                "键盘事件",
+                "HTML页面事件"
+            ],
+            "answer": "1"
+        },
+        "13": {
+            "title": "A文件夹与B文件夹是同级文件夹，其中A下有a.htm，B下有b.htm文件，现在我们希望在a.htm3 文件中创建超链接，链接到b.htm，应该在a.htm页面代码中如何描述链接内容？（ ） ",
+            "options": [
+                "b.htm",
+                "././././B/b.htm",
+                "../B/b.htm",
+                "../../b.htm"
+            ],
+            "answer": "3"
+        },
+        "14": {
+            "title": "给某段文字设置下划线，应该设置什么属性？（ ）",
+            "options": [
+                "text-transform",
+                "text-align",
+                "text-indent",
+                "text-decoration"
+            ],
+            "answer": "4"
+        },
+        "15": {
+            "title": "以下CSS单位是绝对单位的是（ ）",
+            "options": [
+                "px",
+                "em",
+                "rem",
+                "百分比"
+            ],
+            "answer": "1"
+        },
+        "16": {
+            "title": "Html标记中，用什么方法可以将文本在页面中居中？（ ）",
+            "options": [
+                "place=middle",
+                "type=middle",
+                "align=center",
+                "type=center"
+            ],
+            "answer": "3"
+        },
+        "17": {
+            "title": "下列语句不能用于遍历数组的是（ ）。",
+            "options": [
+                "for",
+                "for…in",
+                "do while",
+                "if"
+            ],
+            "answer": "4"
+        },
+        "18": {
+            "title": "下面代码输出正确的是( )。<br><script language= \"javascript\"><br>x=3;<br>y=2;<br>z=(x+2)/y;<br><alert(z);<br></script>",
+            "options": [
+                "2",
+                "2.5",
+                "32/2",
+                "16"
+            ],
+            "answer": "2"
+        },
+        "19": {
+            "title": "以下哪个标签是HTML5新增的标签？（ ）",
+            "options": [
+                "<form>",
+                "<iframe>",
+                "<figure>",
+                "<table>"
+            ],
+            "answer": "3"
+        },
+        "20": {
+            "title": "下列哪个不是JavaScript中注释的正确写法？（ ）",
+            "options": [
+                "/*//…… */",
+                "//……",
+                "/*……*/",
+                "#"
+            ],
+            "answer": "4"
+        },
+        "21": {
+            "title": "关于border-radius说法正确的是（ ）。",
+            "options": [
+                "设置边框的圆角",
+                "不能设置成圆形",
+                "设置容器样式",
+                "只能设置一个值"
+            ],
+            "answer": "1"
+        },
+        "22": {
+            "title": "关于flex说法正确的是（ ）。",
+            "options": [
+                "设置flex布局以后，子元素的float和clear等样式全部失效",
+                "不是任何一个容器都可以使用flex弹性布局",
+                "设置flex:1无意义",
+                "flex是指设置固定定位"
+            ],
+            "answer": "1"
+        },
+        "23": {
+            "title": "设置容器阴影的属性是（ ）。",
+            "options": [
+                "box-sizing",
+                "box-shadow",
+                "border-radius",
+                "border"
+            ],
+            "answer": "2"
+        },
+        "24": {
+            "title": "下列选项中，不属于比较运算符的是（ ）。",
+            "options": [
+                "==",
+                "===",
+                "!==",
+                "="
+            ],
+            "answer": "4"
+        },
+        "25": {
+            "title": "在JavaScript中，执行下面的代码后，num的值是( )。<br>var str = \"wang.wu@gmail.com\";<br>var num = str.indexOF(\".\");",
+            "options": [
+                "-1",
+                "0",
+                "4",
+                "13"
+            ],
+            "answer": "3"
+        },
+        "26": {
+            "title": "以下关于在CSS中的选择器命名错误的是（ ）。",
+            "options": [
+                "*",
+                ".table 5",
+                "div",
+                ".box p"
+            ],
+            "answer": "2"
+        },
+        "27": {
+            "title": "在JavaScript中，下列（ ）语句能正确获取系统当前时间的小时值。",
+            "options": [
+                "var date=new Date(); var hour=date.getHour();",
+                "var date=new Date(); var hour=date.gethours();",
+                "var date=new date(); var hour=date.getHours();",
+                "var date=new Date(); var hour=date.getHours();"
+            ],
+            "answer": "4"
+        },
+        "28": {
+            "title": "在JavaScript中定义函数使用的关键字是（ ）。",
+            "options": [
+                "functio",
+                "func",
+                "var",
+                "new"
+            ],
+            "answer": "1"
+        },
+        "29": {
+            "title": "关于HTML5以下说法不正确的是（ ）。",
+            "options": [
+                "HTML5某些元素可以省略结束标签",
+                "解决跨浏览器跨平台问题",
+                "HTML5保留了以前绝大部分标签",
+                "标签区分大小写"
+            ],
+            "answer": "4"
+        },
+        "30": {
+            "title": "以下选项中，可以根据包含文本匹配到指定元素的是（ ）。",
+            "options": [
+                "text()",
+                "contains()",
+                "input()",
+                "attr()"
+            ],
+            "answer": "2"
+        }
+
+    },
+    "data2": {
+        "1": {
+            "title": "下列能弹出“标题1”的jQuery代码是（ ）。<br><div id=\"box\"><br>    <h2 id='top1' name='header1'>标题1</h2><br>    <h2 id='top2' name='header2'>标题2</h2><br></div>",
+            "options": [
+                "alert($('#top1').text());",
+                "alert($('[name=header1]').text());",
+                "alert($(\"[name='header1']\").text());",
+                "alert($('#header1').text());"
+            ],
+            "answer": "13"
+        },
+        "2": {
+            "title": "以下属于CSS3新增属性的是（ ）。",
+            "options": [
+                "background-clip",
+                "text-overflow",
+                "background-position",
+                "background-size 6"
+            ],
+            "answer": "124"
+        },
+        "3": {
+            "title": "下列关于浮动float的说法正确的是（ ）。",
+            "options": [
+                "浮动使元素脱离文档普通流，漂浮在普通流之上",
+                "浮动会产生块级框，而不管元素本身是什么",
+                "可以通过clear来清除浮动",
+                "不可以通过伪类清除浮动"
+            ],
+            "answer": "123"
+        },
+        "4": {
+            "title": "下面哪些是JavaScript中document的方法？（ ）",
+            "options": [
+                "getElementById",
+                "getElementsById",
+                "getElementsByTagName",
+                "getElementsByName",
+                "getElementsByClassName"
+            ],
+            "answer": "1345"
+        },
+        "5": {
+            "title": "文字溢出显示省略号应该拥有哪些属性？（ ）",
+            "options": [
+                "overflow: hidden;",
+                "white-space: nowrap;",
+                "text-overflow: ellipsis;",
+                "width:500px"
+            ],
+            "answer": "1234"
+        },
+        "6": {
+            "title": "请选出正确的选项（ ）。",
+            "options": [
+                "属性要在开始标签中指定，用来表示该标签的性质和特性",
+                "通常都是以“属性名=“值””的形式来表示",
+                "一个标签可以指定多个属性",
+                "指定多个属性时不用区分顺序"
+            ],
+            "answer": "1234"
+        },
+        "7": {
+            "title": "以下哪些元素是表单控件元素？（ ）",
+            "options": [
+                "<input type=＂text＂>",
+                "<select>",
+                "<textarea>",
+                "<datalist>"
+            ],
+            "answer": "1234"
+        },
+        "8": {
+            "title": "下面代码输出的结果是（ ）。<br>var name = \"小花\";<br>var name=\"小丽\";<br>var a=123;<br>var b=10%3<br>alert(name);<br>alert(typeofa);<br>alert(b);",
+            "options": [
+                "小花",
+                "小丽",
+                "number 7",
+                "3",
+                "1"
+            ],
+            "answer": "235"
+        },
+        "9": {
+            "title": "下列属于块级元素的是（ ）。",
+            "options": [
+                "span",
+                "p",
+                "div",
+                "a"
+            ],
+            "answer": "23"
+        },
+        "10": {
+            "title": "以下（ ）是JavaScript的内置对象？",
+            "options": [
+                "Object",
+                "Array ",
+                "String",
+                "Error "
+            ],
+            "answer": "1234"
+        },
+        "11": {
+            "title": "关于jQuery的选择器，下列描述正确的是（ ）。",
+            "options": [
+                "$(div span)表示匹配所有后代元素",
+                "$('div>span')表示匹配直接子元素",
+                "$('div + next')表示匹配紧接在div元素后的next元素",
+                "无法匹配元素的所有同辈元素"
+            ],
+            "answer": "23"
+        },
+        "12": {
+            "title": "下列关于HTML5的标签默认值描述正确的是（ ）。",
+            "options": [
+                "li的默认值是display:list-item",
+                "button,textarea，input，select的默认值是display:inline-block",
+                "hr的默认值是border:1px inset",
+                "所有的标签都有结束标签"
+            ],
+            "answer": "123"
+        },
+        "13": {
+            "title": "下列关于JavaScript中return的含义描述正确的是（ ）。",
+            "options": [
+                "return可以将函数的结果返回给当前函数名",
+                "如果函数中没有return，则返回undefined",
+                "return可以用来结束一个函数",
+                "return可以返回多个值"
+            ],
+            "answer": "1234"
+        },
+        "14": {
+            "title": "下列关于padding值得描述正确的是（ ）。",
+            "options": [
+                "当padding给一个值时，指的是四个方向",
+                "当padding有两个值时，指的是上下、左右",
+                "当padding有三个值时，指的是上、左右、下",
+                "当padding有四个值时，指的是上、下、左、右"
+            ],
+            "answer": "123"
+        },
+        "15": {
+            "title": "CSS中text-decoration的值有哪些？（ ）",
+            "options": [
+                "none",
+                "underline",
+                "overline",
+                "line-through 8"
+            ],
+            "answer": "1234"
+        }
+    },
+    "data3": {
+        "1": {
+            "title": "JavaScript中不区分整数和浮点数，统一用number表示。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "1"
+        },
+        "2": {
+            "title": "CSS 选择器的优先级是!important>标签选择器>id>class。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        },
+        "3": {
+            "title": "如果想为元素设置相对定位，需要设置position:absolute。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        },
+        "4": {
+            "title": "ol-li列表默认情况下，每个li在浏览器中都会显示一个数字，代表自己的序号。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "1"
+        },
+        "5": {
+            "title": "Javascript中不必有明确的数据类型。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        }
+    }
+}

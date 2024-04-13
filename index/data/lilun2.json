@@ -1,0 +1,283 @@
+{
+    "name": "理论2",
+    "msg": "说明：这套题目是1+x考证理论题2。单选、多选、判断题每小题两分。",
+    "data1": {
+        "1": {
+            "title": "下面关于HTML描述不正确的是？（   ）",
+            "options": [
+                "HYML代码由各种标签组成",
+                "HTML是一种编译型的编程语言",
+                "HTML称为超文本标记语言",
+                "HTML文档的扩展名以.html结尾"
+            ],
+            "answer": "2"
+        },
+        "2": {
+            "title": "下面哪一项是换行符标记？（     ）",
+            "options": [
+                "<font>",
+                "<_br>（下划线不用管）",
+                "<p>",
+                "<body>"
+            ],
+            "answer": "2"
+        },
+        "3": {
+            "title": "想要使用户在单击超链接时，弹出一个新的网页窗口，代码是（  ）。",
+            "options": [
+                "<A href='right.HTML' target='_parent'>新闻</A>",
+                "<A href='right.HTML' target='_top'>新闻</A>",
+                "<A href='right.HTML' target='_blank'>新闻</A>",
+                "<A href='right.HTML' target='_self'>新闻</A>"
+            ],
+            "answer": "3"
+        },
+        "4": {
+            "title": "用HTML标记语言编写一个简单的网页，网页最基本的结构是（      ）。",
+            "options": [
+                "<HTML> <head>…</head> <frame>…</frame> </HTML>",
+                "<HTML> <head>…</head> <body>…</body> </HTML>",
+                "<HTML> <title>…</title> <body>…</body> </HTML>",
+                "<HTML> <title>…</title> <frame>…</frame> </HTML>"
+            ],
+            "answer": "2"
+        },
+        "5": {
+            "title": "以下关于video说法正确的是：（    ）",
+            "options": [
+                "video内使用img展示有视频封面",
+                "当前，video元素支持三种视频格式,其中WebM = 带有 Thedora 视频编码和 Vorbis 音频编码的 WebM 文件。",
+                "source元素可以添加多个,具体播放哪个有浏览器决定。",
+                "loop属性可以使媒介文件循环播放。"
+            ],
+            "answer": "4"
+        },
+        "6": {
+            "title": "A文件夹与b.html文件是同级，其中A下有a.html，现在我们希望在a.html文件中创建超链接，链接到b.html，应该在a.html页面代码中如何描述超链接href属性？（   ）",
+            "options": [
+                "../../b.html",
+                "./b.html",
+                "b.html",
+                "../b.html"
+            ],
+            "answer": "4"
+        },
+        "7": {
+            "title": "下面哪项不属于HTML文档的基本组成部分？（   ）",
+            "options": [
+                "<html></html>",
+                "<body></body>",
+                "<head></head>",
+                "<p></p>"
+            ],
+            "answer": "4"
+        },
+        "8": {
+            "title": "当超链接的target属性值与iframe的什么属性值相同时，可以实现点击超链接，在iframe中打开超链接链接的页面？（   ）",
+            "options": [
+                "id",
+                "src",
+                "target",
+                "name"
+            ],
+            "answer": "4"
+        },
+        "9": {
+            "title": "在HTML中，（    ）标签用于在网页中创建表单。",
+            "options": [
+                "<FORM>",
+                "<TABLE>",
+                "<INPUT>",
+                "<SELECT>"
+            ],
+            "answer": "1"
+        },
+        "10": {
+            "title": "以下标记符中，用于设置页面标题的是（      ）。",
+            "options": [
+                "<caption>",
+                "<HTML>",
+                "<head>",
+                "<title>"
+            ],
+            "answer": "4"
+        },
+        "11": {
+            "title": "下列哪一项不是表单元素？（   ）",
+            "options": [
+                "<select>",
+                "<input>",
+                "<img>",
+                "<textarea>"
+            ],
+            "answer": "3"
+        },
+        "12": {
+            "title": "在HTML语言中，设置表格中文字与边框距离的标签是（   ）。",
+            "options": [
+                "<TABLE border=#>",
+                "<TABLE width=#>",
+                "<TABLE cellspacing=#>",
+                "<TABLE cellpadding=#>"
+            ],
+            "answer": "4"
+        },
+        "13": {
+            "title": "HTML指的是（      ）。",
+            "options": [
+                "超文本标记语言（Hyper Text Markup Language）",
+                "家庭工具标记语言（Home Tool Markup Language）",
+                "以上说法都不对",
+                "超链接和文本标记语言（Hyperlinks and Text Markup Language）"
+            ],
+            "answer": "1"
+        },
+        "14": {
+            "title": "以下标记符中，没有对应的结束标记的是（    ）。",
+            "options": [
+                "<title>",
+                "<body>",
+                "<_br>（下划线不用管）",
+                "<HTML>"
+            ],
+            "answer": "3"
+        },
+        "15": {
+            "title": "以下的HTML中，哪个是正确引用外部样式表的方法？（  ）",
+            "options": [
+                "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+                "<style src='mystyle.css'>",
+                "<stylesheet>mystyle.css</stylesheet>",
+                "以上都不是"
+            ],
+            "answer": "1"
+        },
+        "16": {
+            "title": "在HTML中，可以使用（    ）标记向网页中插入GIF动画文件。",
+            "options": [
+                "<IMG>",
+                "<FORM>",
+                "<BODY>",
+                "<TABLE>"
+            ],
+            "answer": "1"
+        }
+    },
+    "data2": {
+        "1": {
+            "title": "下列关于块级元素描述正确的是（   ）。",
+            "options": [
+                "通常浏览器会在块级元素前后另起一个新行",
+                "行高，内边距和外边距都可以设置",
+                "与其他块级元素并排在一行显示",
+                "可以设置宽高，如果不设置宽度，宽度将默认为父级的100%"
+            ],
+            "answer": "124"
+        },
+        "2": {
+            "title": "在HTML中，属于表格<table>标记属性的有    (     )",
+            "options": [
+                "cellpadding",
+                "bgcolor",
+                "cellspacing",
+                "width",
+                "height"
+            ],
+            "answer": "1234"
+        },
+        "3": {
+            "title": "以下是canvas的方法是：（    ）",
+            "options": [
+                "getContext()",
+                "stroke()",
+                "controller()",
+                "fill()"
+            ],
+            "answer": "124"
+        },
+        "4": {
+            "title": "下面关于input元素的属性说法中，错误的是（   ）。",
+            "options": [
+                "用户可以修改包含disabled属性的input元素的内容",
+                "input元素的name属性规定元素的名称",
+                "input元素的type属性可以设置它的类型",
+                "input元素的value属性可以为元素设定值"
+            ],
+            "answer": "1"
+        },
+        "5": {
+            "title": "在HTML文件中应用abc.css文件中的样式的方法有（   ）",
+            "options": [
+                "<style type='text/css'>@import url(abc.css);</style>",
+                "<style type='text/css'>@import (abc.css);</style>",
+                "<style type='text/css'>import url (abc.css);</style>",
+                "<link href='abc.css' type='text/css' rel='stylesheet'>"
+            ],
+            "answer": "14"
+        },
+        "6": {
+            "title": "以下哪些列表元素的列表项是使用<li>标签定义的？（   ）",
+            "options": [
+                "<ul></ul>",
+                "<ol></ol>",
+                "<list></list>",
+                "<dl></dl>"
+            ],
+            "answer": "123"
+        },
+        "7": {
+            "title": "关于相对路径，以下说法正确的有（    ）。",
+            "options": [
+                "如果在链接中源端点和目标端点不在同一个目录下，就需要将目录的相对关系也表示出来",
+                "如果在链接中源端点和目标端点位于一个目录下，则链接路径中只需要指明目标端点的文档名称即可",
+                "相对路径表述的是源端点同目标端点之间的相互位置",
+                "如果在链接中源端点和目标端点不在同一个目录下，就无法使用相对路径"
+            ],
+            "answer": "123"
+        },
+        "8": {
+            "title": "以下（     ）内容是HTML文件的头部内容所包括的。",
+            "options": [
+                "作者信息、网页描述、基础地址",
+                "注释、表单域",
+                "网页标题、关键字",
+                "自动刷新、CSS样式"
+            ],
+            "answer": "134"
+        }
+    },
+    "data3": {
+        "1": {
+            "title": "<span>标签简单而言是一个没有默认样式的区块容器标签。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        },
+        "2": {
+            "title": "在HTML表格中，rowspan属性能够实现单元格跨列。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        },
+        "3": {
+            "title": "任何标签都可以通过加style属性来直接定义它的样式。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "1"
+        },
+        "4": {
+            "title": "在W3C规范中，每一个标签都应当闭合，使用<br></br>可以实现和段落标签<p></p>同样的效果。",
+            "options": [
+                "正确",
+                "错误"
+            ],
+            "answer": "2"
+        }
+    }
+}
